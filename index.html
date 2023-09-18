@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>
+        Application Form
+    </h2>
+    <form action="backend.php">
+        <div>
+            Name : <input type="text">
+        </div>
+        <br>
+        <div>
+            Password : <input type="password" name="mypassword">
+        </div>
+        <br>
+        <div>
+            email : <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Number : <input type="number" name="mynumber">
+        </div>
+        <br>
+        <div>
+            Are you eligibile to work in India : <input type="checkbox" name="myeligibility">yes
+        </div>
+        <br>
+        <div>
+            Select your Gender : <input type="radio" name="mygender"> Male <input type="radio" name="mygender"> Female
+        </div>
+        <br>
+        <div>
+            Date of Birth : <input type="date" name="Dob">
+        </div>
+        <br>
+        <div>
+           Select Job Role <select name="Job Role">
+            <option value="S.I">Software Intern</option>
+            <option value="A.S.E">Associate Software Engineer</option>
+            <option value="F.D">Frontend Developer</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            Write why you are eligible for this job : <br><textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit"> <input type="reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>
